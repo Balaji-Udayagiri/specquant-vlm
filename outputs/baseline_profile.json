@@ -1,0 +1,8 @@
+{
+  "config": "configs/baseline.yaml",
+  "tokens_generated": 19,
+  "latency_s": 1.084,
+  "tokens_per_sec": 17.53,
+  "peak_vram_gb": 13.551,
+  "text": "USER:  \nDescribe this image in one sentence. ASSISTANT: A bunch of grapes hangs from a vine, with some leaves visible."
+}

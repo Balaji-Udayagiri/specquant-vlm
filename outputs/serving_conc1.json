@@ -1,0 +1,73 @@
+{
+  "concurrency": 1,
+  "n": 8,
+  "wall_s": 14.94,
+  "throughput_req_s": 0.536,
+  "mean_lat_s": 1.867,
+  "results": [
+    {
+      "i": 0,
+      "ok": true,
+      "client_s": 11.054,
+      "server_s": 1.082,
+      "tokens": 16,
+      "text": "A bunch of grapes hangs from a vine, with green leaves"
+    },
+    {
+      "i": 1,
+      "ok": true,
+      "client_s": 0.556,
+      "server_s": 0.54,
+      "tokens": 16,
+      "text": "A bunch of grapes hangs from a vine, with green leaves"
+    },
+    {
+      "i": 2,
+      "ok": true,
+      "client_s": 0.552,
+      "server_s": 0.539,
+      "tokens": 16,
+      "text": "A bunch of grapes hangs from a vine, with green leaves"
+    },
+    {
+      "i": 3,
+      "ok": true,
+      "client_s": 0.546,
+      "server_s": 0.533,
+      "tokens": 16,
+      "text": "A bunch of grapes hangs from a vine, with green leaves"
+    },
+    {
+      "i": 4,
+      "ok": true,
+      "client_s": 0.552,
+      "server_s": 0.539,
+      "tokens": 16,
+      "text": "A bunch of grapes hangs from a vine, with green leaves"
+    },
+    {
+      "i": 5,
+      "ok": true,
+      "client_s": 0.549,
+      "server_s": 0.535,
+      "tokens": 16,
+      "text": "A bunch of grapes hangs from a vine, with green leaves"
+    },
+    {
+      "i": 6,
+      "ok": true,
+      "client_s": 0.557,
+      "server_s": 0.544,
+      "tokens": 16,
+      "text": "A bunch of grapes hangs from a vine, with green leaves"
+    },
+    {
+      "i": 7,
+      "ok": true,
+      "client_s": 0.567,
+      "server_s": 0.555,
+      "tokens": 16,
+      "text": "A bunch of grapes hangs from a vine, with green leaves"
+    }
+  ]
+}

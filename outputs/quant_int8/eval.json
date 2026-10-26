@@ -1,0 +1,2034 @@
+{
+  "variant": "quant_int8",
+  "config": "configs/baseline.yaml",
+  "model": "llava-hf/llava-1.5-7b-hf",
+  "bits": 8,
+  "keep_fp16_layers": [],
+  "dataset": "lmms-lab-encoder/POPE test, stratified",
+  "limit": 200,
+  "accuracy": 0.81,
+  "correct": 162,
+  "latency_s_per_image": 1.519,
+  "total_latency_s": 303.806,
+  "tokens_per_sec": 10.29,
+  "avg_tokens_generated": 15.63,
+  "peak_vram_gb": 7.262,
+  "memory_footprint_gb": 6.825,
+  "wall_time_s": 304.8,
+  "per_category": {
+    "adversarial": {
+      "n": 66,
+      "accuracy": 0.7424
+    },
+    "popular": {
+      "n": 66,
+      "accuracy": 0.8485
+    },
+    "random": {
+      "n": 68,
+      "accuracy": 0.8382
+    }
+  },
+  "examples": [
+    {
+      "index": 0,
+      "category": "adversarial",
+      "question": "Is there a snowboard in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 2.093,
+      "tokens_generated": 16
+    },
+    {
+      "index": 1,
+      "category": "adversarial",
+      "question": "Is there a backpack in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.511,
+      "tokens_generated": 16
+    },
+    {
+      "index": 2,
+      "category": "adversarial",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.532,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3,
+      "category": "adversarial",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.496,
+      "tokens_generated": 16
+    },
+    {
+      "index": 4,
+      "category": "adversarial",
+      "question": "Is there a skis in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.512,
+      "tokens_generated": 16
+    },
+    {
+      "index": 5,
+      "category": "adversarial",
+      "question": "Is there a dog in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.508,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6,
+      "category": "adversarial",
+      "question": "Is there a truck in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.678,
+      "tokens_generated": 16
+    },
+    {
+      "index": 7,
+      "category": "adversarial",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.541,
+      "tokens_generated": 16
+    },
+    {
+      "index": 8,
+      "category": "adversarial",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.509,
+      "tokens_generated": 16
+    },
+    {
+      "index": 9,
+      "category": "adversarial",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.513,
+      "tokens_generated": 16
+    },
+    {
+      "index": 10,
+      "category": "adversarial",
+      "question": "Is there an umbrella in the imange?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.256,
+      "tokens_generated": 13
+    },
+    {
+      "index": 11,
+      "category": "adversarial",
+      "question": "Is there a handbag in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.518,
+      "tokens_generated": 16
+    },
+    {
+      "index": 12,
+      "category": "adversarial",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.532,
+      "tokens_generated": 16
+    },
+    {
+      "index": 13,
+      "category": "adversarial",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.516,
+      "tokens_generated": 16
+    },
+    {
+      "index": 14,
+      "category": "adversarial",
+      "question": "Is there a bicycle in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.514,
+      "tokens_generated": 16
+    },
+    {
+      "index": 15,
+      "category": "adversarial",
+      "question": "Is there a motorcycle in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.516,
+      "tokens_generated": 16
+    },
+    {
+      "index": 16,
+      "category": "adversarial",
+      "question": "Is there a car in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.519,
+      "tokens_generated": 16
+    },
+    {
+      "index": 17,
+      "category": "adversarial",
+      "question": "Is there a truck in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.522,
+      "tokens_generated": 16
+    },
+    {
+      "index": 18,
+      "category": "adversarial",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.516,
+      "tokens_generated": 16
+    },
+    {
+      "index": 19,
+      "category": "adversarial",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.509,
+      "tokens_generated": 16
+    },
+    {
+      "index": 20,
+      "category": "adversarial",
+      "question": "Is there a potted plant in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.509,
+      "tokens_generated": 16
+    },
+    {
+      "index": 21,
+      "category": "adversarial",
+      "question": "Is there a vase in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.526,
+      "tokens_generated": 16
+    },
+    {
+      "index": 22,
+      "category": "adversarial",
+      "question": "Is there a car in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.538,
+      "tokens_generated": 16
+    },
+    {
+      "index": 23,
+      "category": "adversarial",
+      "question": "Is there a truck in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.591,
+      "tokens_generated": 16
+    },
+    {
+      "index": 24,
+      "category": "adversarial",
+      "question": "Is there a traffic light in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.507,
+      "tokens_generated": 16
+    },
+    {
+      "index": 25,
+      "category": "adversarial",
+      "question": "Is there a bus in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.537,
+      "tokens_generated": 16
+    },
+    {
+      "index": 26,
+      "category": "adversarial",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.525,
+      "tokens_generated": 16
+    },
+    {
+      "index": 27,
+      "category": "adversarial",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.519,
+      "tokens_generated": 16
+    },
+    {
+      "index": 28,
+      "category": "adversarial",
+      "question": "Is there a car in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.536,
+      "tokens_generated": 16
+    },
+    {
+      "index": 29,
+      "category": "adversarial",
+      "question": "Is there a truck in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.53,
+      "tokens_generated": 16
+    },
+    {
+      "index": 30,
+      "category": "adversarial",
+      "question": "Is there a dog in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.279,
+      "tokens_generated": 13
+    },
+    {
+      "index": 31,
+      "category": "adversarial",
+      "question": "Is there a person in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.525,
+      "tokens_generated": 16
+    },
+    {
+      "index": 32,
+      "category": "adversarial",
+      "question": "Is there a dining table in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.271,
+      "tokens_generated": 13
+    },
+    {
+      "index": 33,
+      "category": "adversarial",
+      "question": "Is there a chair in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.525,
+      "tokens_generated": 16
+    },
+    {
+      "index": 34,
+      "category": "adversarial",
+      "question": "Is there a bed in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.548,
+      "tokens_generated": 16
+    },
+    {
+      "index": 35,
+      "category": "adversarial",
+      "question": "Is there a book in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.539,
+      "tokens_generated": 16
+    },
+    {
+      "index": 36,
+      "category": "adversarial",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.542,
+      "tokens_generated": 16
+    },
+    {
+      "index": 37,
+      "category": "adversarial",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.52,
+      "tokens_generated": 16
+    },
+    {
+      "index": 38,
+      "category": "adversarial",
+      "question": "Is there a spoon in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.166,
+      "tokens_generated": 12
+    },
+    {
+      "index": 39,
+      "category": "adversarial",
+      "question": "Is there a cup in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.527,
+      "tokens_generated": 16
+    },
+    {
+      "index": 40,
+      "category": "adversarial",
+      "question": "Is there a fork in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.519,
+      "tokens_generated": 16
+    },
+    {
+      "index": 41,
+      "category": "adversarial",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.537,
+      "tokens_generated": 16
+    },
+    {
+      "index": 42,
+      "category": "adversarial",
+      "question": "Is there a tv in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.532,
+      "tokens_generated": 16
+    },
+    {
+      "index": 43,
+      "category": "adversarial",
+      "question": "Is there a person in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.553,
+      "tokens_generated": 16
+    },
+    {
+      "index": 44,
+      "category": "adversarial",
+      "question": "Is there a toaster in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.176,
+      "tokens_generated": 12
+    },
+    {
+      "index": 45,
+      "category": "adversarial",
+      "question": "Is there a book in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.546,
+      "tokens_generated": 16
+    },
+    {
+      "index": 46,
+      "category": "adversarial",
+      "question": "Is there a microwave in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.282,
+      "tokens_generated": 13
+    },
+    {
+      "index": 47,
+      "category": "adversarial",
+      "question": "Is there a bottle in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.526,
+      "tokens_generated": 16
+    },
+    {
+      "index": 48,
+      "category": "adversarial",
+      "question": "Is there a backpack in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.535,
+      "tokens_generated": 16
+    },
+    {
+      "index": 49,
+      "category": "adversarial",
+      "question": "Is there a handbag in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.539,
+      "tokens_generated": 16
+    },
+    {
+      "index": 50,
+      "category": "adversarial",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.516,
+      "tokens_generated": 16
+    },
+    {
+      "index": 51,
+      "category": "adversarial",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.536,
+      "tokens_generated": 16
+    },
+    {
+      "index": 52,
+      "category": "adversarial",
+      "question": "Is there a skis in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.501,
+      "tokens_generated": 16
+    },
+    {
+      "index": 53,
+      "category": "adversarial",
+      "question": "Is there a snowboard in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.537,
+      "tokens_generated": 16
+    },
+    {
+      "index": 54,
+      "category": "adversarial",
+      "question": "Is there a bird in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.573,
+      "tokens_generated": 16
+    },
+    {
+      "index": 55,
+      "category": "adversarial",
+      "question": "Is there a handbag in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.597,
+      "tokens_generated": 16
+    },
+    {
+      "index": 56,
+      "category": "adversarial",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.604,
+      "tokens_generated": 16
+    },
+    {
+      "index": 57,
+      "category": "adversarial",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.633,
+      "tokens_generated": 16
+    },
+    {
+      "index": 58,
+      "category": "adversarial",
+      "question": "Is there a boat in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.563,
+      "tokens_generated": 16
+    },
+    {
+      "index": 59,
+      "category": "adversarial",
+      "question": "Is there a chair in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.518,
+      "tokens_generated": 16
+    },
+    {
+      "index": 60,
+      "category": "adversarial",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.54,
+      "tokens_generated": 16
+    },
+    {
+      "index": 61,
+      "category": "adversarial",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.545,
+      "tokens_generated": 16
+    },
+    {
+      "index": 62,
+      "category": "adversarial",
+      "question": "Is there an orange in the imange?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.077,
+      "tokens_generated": 11
+    },
+    {
+      "index": 63,
+      "category": "adversarial",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.514,
+      "tokens_generated": 16
+    },
+    {
+      "index": 64,
+      "category": "adversarial",
+      "question": "Is there a bottle in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.506,
+      "tokens_generated": 16
+    },
+    {
+      "index": 65,
+      "category": "adversarial",
+      "question": "Is there a cup in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.527,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3000,
+      "category": "popular",
+      "question": "Is there a snowboard in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.515,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3001,
+      "category": "popular",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.498,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3002,
+      "category": "popular",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.599,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3003,
+      "category": "popular",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.558,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3004,
+      "category": "popular",
+      "question": "Is there a skis in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.616,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3005,
+      "category": "popular",
+      "question": "Is there a chair in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.611,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3006,
+      "category": "popular",
+      "question": "Is there a truck in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.563,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3007,
+      "category": "popular",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.587,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3008,
+      "category": "popular",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.64,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3009,
+      "category": "popular",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.536,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3010,
+      "category": "popular",
+      "question": "Is there an umbrella in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.62,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3011,
+      "category": "popular",
+      "question": "Is there a chair in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.612,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3012,
+      "category": "popular",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.558,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3013,
+      "category": "popular",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.536,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3014,
+      "category": "popular",
+      "question": "Is there a bicycle in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.496,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3015,
+      "category": "popular",
+      "question": "Is there a chair in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.524,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3016,
+      "category": "popular",
+      "question": "Is there a car in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.534,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3017,
+      "category": "popular",
+      "question": "Is there a cup in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.527,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3018,
+      "category": "popular",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.582,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3019,
+      "category": "popular",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.519,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3020,
+      "category": "popular",
+      "question": "Is there a potted plant in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.499,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3021,
+      "category": "popular",
+      "question": "Is there a chair in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.534,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3022,
+      "category": "popular",
+      "question": "Is there a car in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.526,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3023,
+      "category": "popular",
+      "question": "Is there a cup in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.545,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3024,
+      "category": "popular",
+      "question": "Is there a traffic light in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.5,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3025,
+      "category": "popular",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.519,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3026,
+      "category": "popular",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.531,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3027,
+      "category": "popular",
+      "question": "Is there a chair in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.522,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3028,
+      "category": "popular",
+      "question": "Is there a car in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.524,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3029,
+      "category": "popular",
+      "question": "Is there a cup in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.529,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3030,
+      "category": "popular",
+      "question": "Is there a dog in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.262,
+      "tokens_generated": 13
+    },
+    {
+      "index": 3031,
+      "category": "popular",
+      "question": "Is there a person in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.531,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3032,
+      "category": "popular",
+      "question": "Is there a dining table in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.245,
+      "tokens_generated": 13
+    },
+    {
+      "index": 3033,
+      "category": "popular",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.524,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3034,
+      "category": "popular",
+      "question": "Is there a bed in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.528,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3035,
+      "category": "popular",
+      "question": "Is there a chair in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.523,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3036,
+      "category": "popular",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.533,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3037,
+      "category": "popular",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.509,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3038,
+      "category": "popular",
+      "question": "Is there a spoon in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.156,
+      "tokens_generated": 12
+    },
+    {
+      "index": 3039,
+      "category": "popular",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.524,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3040,
+      "category": "popular",
+      "question": "Is there a fork in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.509,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3041,
+      "category": "popular",
+      "question": "Is there a chair in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.527,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3042,
+      "category": "popular",
+      "question": "Is there a tv in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.517,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3043,
+      "category": "popular",
+      "question": "Is there a person in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.555,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3044,
+      "category": "popular",
+      "question": "Is there a toaster in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.175,
+      "tokens_generated": 12
+    },
+    {
+      "index": 3045,
+      "category": "popular",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.525,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3046,
+      "category": "popular",
+      "question": "Is there a microwave in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.246,
+      "tokens_generated": 13
+    },
+    {
+      "index": 3047,
+      "category": "popular",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.52,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3048,
+      "category": "popular",
+      "question": "Is there a backpack in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.518,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3049,
+      "category": "popular",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.515,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3050,
+      "category": "popular",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.519,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3051,
+      "category": "popular",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.51,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3052,
+      "category": "popular",
+      "question": "Is there a skis in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.494,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3053,
+      "category": "popular",
+      "question": "Is there a chair in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.498,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3054,
+      "category": "popular",
+      "question": "Is there a bird in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.525,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3055,
+      "category": "popular",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.608,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3056,
+      "category": "popular",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.594,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3057,
+      "category": "popular",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.556,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3058,
+      "category": "popular",
+      "question": "Is there a boat in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.6,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3059,
+      "category": "popular",
+      "question": "Is there a chair in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.52,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3060,
+      "category": "popular",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.523,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3061,
+      "category": "popular",
+      "question": "Is there a dining table in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.502,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3062,
+      "category": "popular",
+      "question": "Is there an orange in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.081,
+      "tokens_generated": 11
+    },
+    {
+      "index": 3063,
+      "category": "popular",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.538,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3064,
+      "category": "popular",
+      "question": "Is there a bottle in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.515,
+      "tokens_generated": 16
+    },
+    {
+      "index": 3065,
+      "category": "popular",
+      "question": "Is there a chair in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.522,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6000,
+      "category": "random",
+      "question": "Is there a snowboard in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.526,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6001,
+      "category": "random",
+      "question": "Is there a car in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.514,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6002,
+      "category": "random",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.555,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6003,
+      "category": "random",
+      "question": "Is there a sandwich in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.507,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6004,
+      "category": "random",
+      "question": "Is there a skis in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.529,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6005,
+      "category": "random",
+      "question": "Is there a couch in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.644,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6006,
+      "category": "random",
+      "question": "Is there a truck in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.605,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6007,
+      "category": "random",
+      "question": "Is there a pizza in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.642,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6008,
+      "category": "random",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.615,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6009,
+      "category": "random",
+      "question": "Is there a sink in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.628,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6010,
+      "category": "random",
+      "question": "Is there an umbrella in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.609,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6011,
+      "category": "random",
+      "question": "Is there a cell phone in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.502,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6012,
+      "category": "random",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.525,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6013,
+      "category": "random",
+      "question": "Is there a sheep in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.514,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6014,
+      "category": "random",
+      "question": "Is there a bicycle in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.498,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6015,
+      "category": "random",
+      "question": "Is there a broccoli in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.499,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6016,
+      "category": "random",
+      "question": "Is there a car in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.52,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6017,
+      "category": "random",
+      "question": "Is there a tennis racket in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.522,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6018,
+      "category": "random",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.515,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6019,
+      "category": "random",
+      "question": "Is there a teddy bear in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.52,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6020,
+      "category": "random",
+      "question": "Is there a potted plant in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.494,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6021,
+      "category": "random",
+      "question": "Is there a broccoli in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.505,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6022,
+      "category": "random",
+      "question": "Is there a car in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.531,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6023,
+      "category": "random",
+      "question": "Is there an orange in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.071,
+      "tokens_generated": 11
+    },
+    {
+      "index": 6024,
+      "category": "random",
+      "question": "Is there a traffic light in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.505,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6025,
+      "category": "random",
+      "question": "Is there a train in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.536,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6026,
+      "category": "random",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.517,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6027,
+      "category": "random",
+      "question": "Is there a surfboard in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.516,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6028,
+      "category": "random",
+      "question": "Is there a car in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.551,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6029,
+      "category": "random",
+      "question": "Is there a kite in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.518,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6030,
+      "category": "random",
+      "question": "Is there a dog in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.274,
+      "tokens_generated": 13
+    },
+    {
+      "index": 6031,
+      "category": "random",
+      "question": "Is there a toaster in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.52,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6032,
+      "category": "random",
+      "question": "Is there a dining table in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.264,
+      "tokens_generated": 13
+    },
+    {
+      "index": 6033,
+      "category": "random",
+      "question": "Is there a sports ball in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.512,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6034,
+      "category": "random",
+      "question": "Is there a bed in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.531,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6035,
+      "category": "random",
+      "question": "Is there a book in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.517,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6036,
+      "category": "random",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.568,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6037,
+      "category": "random",
+      "question": "Is there a traffic light in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.634,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6038,
+      "category": "random",
+      "question": "Is there a spoon in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.243,
+      "tokens_generated": 12
+    },
+    {
+      "index": 6039,
+      "category": "random",
+      "question": "Is there a bird in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.633,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6040,
+      "category": "random",
+      "question": "Is there a fork in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.614,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6041,
+      "category": "random",
+      "question": "Is there a truck in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.629,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6042,
+      "category": "random",
+      "question": "Is there a tv in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.642,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6043,
+      "category": "random",
+      "question": "Is there a bowl in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.625,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6044,
+      "category": "random",
+      "question": "Is there a toaster in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.258,
+      "tokens_generated": 12
+    },
+    {
+      "index": 6045,
+      "category": "random",
+      "question": "Is there a cow in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.638,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6046,
+      "category": "random",
+      "question": "Is there a microwave in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.326,
+      "tokens_generated": 13
+    },
+    {
+      "index": 6047,
+      "category": "random",
+      "question": "Is there a laptop in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.619,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6048,
+      "category": "random",
+      "question": "Is there a backpack in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.61,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6049,
+      "category": "random",
+      "question": "Is there a cell phone in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.631,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6050,
+      "category": "random",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.618,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6051,
+      "category": "random",
+      "question": "Is there a couch in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.629,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6052,
+      "category": "random",
+      "question": "Is there a skis in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.607,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6053,
+      "category": "random",
+      "question": "Is there a tennis racket in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.566,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6054,
+      "category": "random",
+      "question": "Is there a bird in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.612,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6055,
+      "category": "random",
+      "question": "Is there a fire hydrant in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.615,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6056,
+      "category": "random",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.622,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6057,
+      "category": "random",
+      "question": "Is there a bed in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.622,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6058,
+      "category": "random",
+      "question": "Is there a boat in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.622,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6059,
+      "category": "random",
+      "question": "Is there a bench in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.628,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6060,
+      "category": "random",
+      "question": "Is there a person in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.64,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6061,
+      "category": "random",
+      "question": "Is there a bear in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.617,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6062,
+      "category": "random",
+      "question": "Is there an orange in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.17,
+      "tokens_generated": 11
+    },
+    {
+      "index": 6063,
+      "category": "random",
+      "question": "Is there a cow in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.624,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6064,
+      "category": "random",
+      "question": "Is there a bottle in the image?",
+      "gold": "yes",
+      "pred": "yes",
+      "correct": true,
+      "latency_s": 1.596,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6065,
+      "category": "random",
+      "question": "Is there a bed in the image?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "latency_s": 1.642,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6066,
+      "category": "random",
+      "question": "Is there a backpack in the image?",
+      "gold": "yes",
+      "pred": "no",
+      "correct": false,
+      "latency_s": 1.628,
+      "tokens_generated": 16
+    },
+    {
+      "index": 6067,
+      "category": "random",
+      "question": "Is there a potted plant in the image?",
+      "gold": "no",
+      "pred": "yes",
+      "correct": false,
+      "latency_s": 1.621,
+      "tokens_generated": 16
+    }
+  ]
+}

@@ -91,9 +91,7 @@ Serving, Day 11, FastAPI, combined keep 35%:
   Concurrency 4 median 2.248 s, concurrency 8 median 4.466 s,
   throughput unchanged at 1.77 to 1.78 req/s. Concurrency only
   queues, it does not scale a weight bound model.
-- See `outputs/failure_analysis.md` for Day 12, and
-  `outputs/review_note_bharath_draft.md` for the Day 7 review
-  draft. Neither was sent without approval.
+- See `outputs/failure_analysis.md` for Day 12.
 - Charts: `outputs/chart_latency_accuracy.png`,
   `outputs/chart_sensitivity.png`.
 

@@ -1,0 +1,254 @@
+{
+  "baseline_accuracy": 0.9,
+  "baseline_latency_s_per_image": 0.42681930821971037,
+  "limit": 50,
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    6000,
+    6001,
+    6002,
+    6003,
+    6004,
+    6005,
+    6006,
+    6007,
+    6008,
+    6009,
+    6010,
+    6011,
+    6012,
+    6013,
+    6014,
+    6015
+  ],
+  "bits": 8,
+  "layers": {
+    "language_model.layer.0": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.417
+    },
+    "language_model.layer.1": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.41
+    },
+    "language_model.layer.2": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.416
+    },
+    "language_model.layer.3": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.416
+    },
+    "language_model.layer.4": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.416
+    },
+    "language_model.layer.5": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.416
+    },
+    "language_model.layer.6": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.415
+    },
+    "language_model.layer.7": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.415
+    },
+    "language_model.layer.8": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.413
+    },
+    "language_model.layer.9": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.416
+    },
+    "language_model.layer.10": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.412
+    },
+    "language_model.layer.11": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.413
+    },
+    "language_model.layer.12": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.417
+    },
+    "language_model.layer.13": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.415
+    },
+    "language_model.layer.14": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.413
+    },
+    "language_model.layer.15": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.407
+    },
+    "language_model.layer.16": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.411
+    },
+    "language_model.layer.17": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.417
+    },
+    "language_model.layer.18": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.411
+    },
+    "language_model.layer.19": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.411
+    },
+    "language_model.layer.20": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.412
+    },
+    "language_model.layer.21": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.429
+    },
+    "language_model.layer.22": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.418
+    },
+    "language_model.layer.23": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.411
+    },
+    "language_model.layer.24": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.426
+    },
+    "language_model.layer.25": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.427
+    },
+    "language_model.layer.26": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.413
+    },
+    "language_model.layer.27": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.422
+    },
+    "language_model.layer.28": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.41
+    },
+    "language_model.layer.29": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.415
+    },
+    "language_model.layer.30": {
+      "accuracy": 0.9,
+      "drop": 0.0,
+      "latency_s_per_image": 0.429
+    },
+    "language_model.layer.31": {
+      "accuracy": 0.86,
+      "drop": 0.04,
+      "latency_s_per_image": 0.416
+    }
+  },
+  "ranking": [
+    "language_model.layer.31",
+    "language_model.layer.0",
+    "language_model.layer.1",
+    "language_model.layer.2",
+    "language_model.layer.3",
+    "language_model.layer.4",
+    "language_model.layer.5",
+    "language_model.layer.6",
+    "language_model.layer.7",
+    "language_model.layer.8",
+    "language_model.layer.9",
+    "language_model.layer.10",
+    "language_model.layer.11",
+    "language_model.layer.12",
+    "language_model.layer.13",
+    "language_model.layer.14",
+    "language_model.layer.15",
+    "language_model.layer.16",
+    "language_model.layer.17",
+    "language_model.layer.18",
+    "language_model.layer.19",
+    "language_model.layer.20",
+    "language_model.layer.21",
+    "language_model.layer.22",
+    "language_model.layer.23",
+    "language_model.layer.24",
+    "language_model.layer.25",
+    "language_model.layer.26",
+    "language_model.layer.27",
+    "language_model.layer.28",
+    "language_model.layer.29",
+    "language_model.layer.30"
+  ]
+}
