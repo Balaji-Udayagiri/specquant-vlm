@@ -1,0 +1,12 @@
+model:
+  name: llava-hf/llava-1.5-7b-hf
+  dtype: float16
+pruning:
+  method: fastv_style
+  prune_after_layer: 2
+  keep_ratio: 0.35
+  # LLaVA starts with 576 vision tokens. 0.35 keeps about 202.
+eval:
+  dataset: pope
+  limit: 200
+output_dir: outputs/pruning

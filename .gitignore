@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+checkpoints/
+outputs/
+*.onnx
+*.bin
+*.safetensors
+data/raw/
+benchmarks/*.log
+.DS_Store

@@ -1,0 +1,14 @@
+model:
+  name: llava-hf/llava-1.5-7b-hf
+  dtype: float16
+  device_map: auto
+quantization:
+  method: awq
+  bits: 4
+  group_size: 128
+  sensitive_layers_fp16_ratio: 0.15
+  calibration_samples: 128
+eval:
+  dataset: pope
+  limit: 200
+output_dir: outputs/quant_int4

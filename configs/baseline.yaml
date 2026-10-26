@@ -1,0 +1,13 @@
+model:
+  name: llava-hf/llava-1.5-7b-hf
+  dtype: float16
+  device_map: auto
+  trust_remote_code: false
+generation:
+  max_new_tokens: 64
+  do_sample: false
+eval:
+  dataset: pope
+  limit: 200
+  batch_size: 1
+output_dir: outputs/baseline

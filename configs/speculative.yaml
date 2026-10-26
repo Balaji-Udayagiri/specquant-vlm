@@ -1,0 +1,15 @@
+target_model:
+  name: llava-hf/llava-1.5-7b-hf
+  dtype: float16
+draft_model:
+  name: Qwen/Qwen2.5-0.5B
+  dtype: float16
+  # Experiment B: your merged draft model
+  merged_name: null
+speculative:
+  num_draft_tokens: 5
+  max_new_tokens: 128
+eval:
+  dataset: pope
+  limit: 200
+output_dir: outputs/speculative

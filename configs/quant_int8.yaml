@@ -1,0 +1,12 @@
+model:
+  name: llava-hf/llava-1.5-7b-hf
+  dtype: float16
+  device_map: auto
+quantization:
+  method: bitsandbytes
+  bits: 8
+  sensitive_layers_fp16_ratio: 0.15
+eval:
+  dataset: pope
+  limit: 200
+output_dir: outputs/quant_int8

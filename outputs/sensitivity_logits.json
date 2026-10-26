@@ -1,0 +1,287 @@
+{
+  "baseline_first_token_accuracy": 0.9,
+  "limit": 50,
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    6000,
+    6001,
+    6002,
+    6003,
+    6004,
+    6005,
+    6006,
+    6007,
+    6008,
+    6009,
+    6010,
+    6011,
+    6012,
+    6013,
+    6014,
+    6015
+  ],
+  "bits": 8,
+  "yes_id": 3869,
+  "no_id": 1939,
+  "layers": {
+    "language_model.layer.0": {
+      "mean_abs_margin_change": 0.0116,
+      "max_abs_margin_change": 0.0625,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.1": {
+      "mean_abs_margin_change": 0.2603,
+      "max_abs_margin_change": 1.0469,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.2": {
+      "mean_abs_margin_change": 0.0303,
+      "max_abs_margin_change": 0.0781,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.3": {
+      "mean_abs_margin_change": 0.0172,
+      "max_abs_margin_change": 0.0469,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.4": {
+      "mean_abs_margin_change": 0.0331,
+      "max_abs_margin_change": 0.0781,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.5": {
+      "mean_abs_margin_change": 0.0334,
+      "max_abs_margin_change": 0.0781,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.6": {
+      "mean_abs_margin_change": 0.0303,
+      "max_abs_margin_change": 0.2031,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.7": {
+      "mean_abs_margin_change": 0.0625,
+      "max_abs_margin_change": 0.2188,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.8": {
+      "mean_abs_margin_change": 0.0338,
+      "max_abs_margin_change": 0.0781,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.9": {
+      "mean_abs_margin_change": 0.0356,
+      "max_abs_margin_change": 0.125,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.10": {
+      "mean_abs_margin_change": 0.0678,
+      "max_abs_margin_change": 0.2031,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.11": {
+      "mean_abs_margin_change": 0.0328,
+      "max_abs_margin_change": 0.125,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.12": {
+      "mean_abs_margin_change": 0.0459,
+      "max_abs_margin_change": 0.0938,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.13": {
+      "mean_abs_margin_change": 0.0312,
+      "max_abs_margin_change": 0.1094,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.14": {
+      "mean_abs_margin_change": 0.0247,
+      "max_abs_margin_change": 0.0938,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.15": {
+      "mean_abs_margin_change": 0.0344,
+      "max_abs_margin_change": 0.0938,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.16": {
+      "mean_abs_margin_change": 0.0809,
+      "max_abs_margin_change": 0.1406,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.17": {
+      "mean_abs_margin_change": 0.0206,
+      "max_abs_margin_change": 0.0469,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.18": {
+      "mean_abs_margin_change": 0.0425,
+      "max_abs_margin_change": 0.0625,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.19": {
+      "mean_abs_margin_change": 0.0241,
+      "max_abs_margin_change": 0.0781,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.20": {
+      "mean_abs_margin_change": 0.0187,
+      "max_abs_margin_change": 0.0469,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.21": {
+      "mean_abs_margin_change": 0.0119,
+      "max_abs_margin_change": 0.0312,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.22": {
+      "mean_abs_margin_change": 0.0084,
+      "max_abs_margin_change": 0.0312,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.23": {
+      "mean_abs_margin_change": 0.0103,
+      "max_abs_margin_change": 0.0156,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.24": {
+      "mean_abs_margin_change": 0.0094,
+      "max_abs_margin_change": 0.0312,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.25": {
+      "mean_abs_margin_change": 0.0116,
+      "max_abs_margin_change": 0.0312,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.26": {
+      "mean_abs_margin_change": 0.0122,
+      "max_abs_margin_change": 0.0312,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.27": {
+      "mean_abs_margin_change": 0.0231,
+      "max_abs_margin_change": 0.0469,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.28": {
+      "mean_abs_margin_change": 0.0159,
+      "max_abs_margin_change": 0.0312,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.29": {
+      "mean_abs_margin_change": 0.0122,
+      "max_abs_margin_change": 0.0312,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.30": {
+      "mean_abs_margin_change": 0.0172,
+      "max_abs_margin_change": 0.0312,
+      "first_token_accuracy": 0.9,
+      "first_token_accuracy_drop": 0.0
+    },
+    "language_model.layer.31": {
+      "mean_abs_margin_change": 0.59,
+      "max_abs_margin_change": 0.6406,
+      "first_token_accuracy": 0.86,
+      "first_token_accuracy_drop": 0.04
+    }
+  },
+  "ranking": [
+    "language_model.layer.31",
+    "language_model.layer.1",
+    "language_model.layer.16",
+    "language_model.layer.10",
+    "language_model.layer.7",
+    "language_model.layer.12",
+    "language_model.layer.18",
+    "language_model.layer.9",
+    "language_model.layer.15",
+    "language_model.layer.8",
+    "language_model.layer.5",
+    "language_model.layer.4",
+    "language_model.layer.11",
+    "language_model.layer.13",
+    "language_model.layer.2",
+    "language_model.layer.6",
+    "language_model.layer.14",
+    "language_model.layer.19",
+    "language_model.layer.27",
+    "language_model.layer.17",
+    "language_model.layer.20",
+    "language_model.layer.3",
+    "language_model.layer.30",
+    "language_model.layer.28",
+    "language_model.layer.26",
+    "language_model.layer.29",
+    "language_model.layer.21",
+    "language_model.layer.0",
+    "language_model.layer.25",
+    "language_model.layer.23",
+    "language_model.layer.24",
+    "language_model.layer.22"
+  ]
+}
